@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    max-width: 1000px;
+    margin: auto;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+.card{
+    margin: 1rem auto;
+    width: 400px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.card img{
+    border-radius: 20px;
+}
+.horizontal-scroll{
+    margin: 10px 5px;
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    align-content: flex-end;
+}
+.horizontal-scroll a{
+    display: inline-block;
+    font-size: 1.3rem;
+    padding: 5px 15px;
+    text-decoration: none; 
+    margin: 5px;
+    border-radius: 100px;
+}
+.horizontal-scroll a:hover{
+    background-color: rgb(33, 33, 33);
+    color: white;
+}
+
+header{
+    font-size: 1.5rem;
+    margin: 1rem auto;
+    background-color: #FFE347;
+    color: black;
+    width: fit-content;
+    padding: 20px 25px;
+    border-radius: 100px;
+}
+@media screen and (max-width:600px) {
+    header{
+        font-size: 1.3rem;
+        margin: 1rem auto;
+    }
+}
+
+.card.card1{
+    border: 2px solid rgb(33, 33, 33);
+}
+.card.card1 h2{
+    border-left: 5px solid rgb(33, 33, 33);
+    padding-left: 10px;
+    font-size: 2rem;
+    color: rgb(33, 33, 33);
+}
+.card.card1 p{
+    color: rgb(83, 83, 83);
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 10px;
+}
+.horizontal-scroll1 a{
+    border: 1px solid rgb(33, 33, 33);
+    color: rgb(33, 33, 33);
+}
+.horizontal-scroll1 a:hover{
+    color: white;
+    background-color: #E54B4B;
+}
+
+.card.card2{
+    border: 2px solid #E54B4B;
+}
+.card.card2 h2{
+    border-left: 5px solid #e43a3a;
+    padding-left: 10px;
+    font-size: 2rem;
+    color: #E54B4B;
+}
+.card.card2 p{
+    color: #df7676;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 10px;
+}
+.horizontal-scroll2 a{
+    border: 1px solid #E54B4B;
+    color: #E54B4B;
+}
+.horizontal-scroll2 a:hover{
+    color: white;
+    background-color: #E54B4B;
+}
+
+.card.card3{
+    border: 2px solid #3F84E5;
+}
+.card.card3 h2{
+    border-left: 5px solid #3F84E5;
+    padding-left: 10px;
+    font-size: 2rem;
+    color: #3F84E5;
+}
+.card.card3 p{
+    color: #5992e1;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 10px;
+}
+.horizontal-scroll3 a{
+    border: 1px solid #3F84E5;
+    color: #3F84E5;
+}
+.horizontal-scroll3 a:hover{
+    color: white;
+    background-color: #3F84E5;
+}
+
+.card.card4{
+    border: 2px solid #735CDD;
+}
+.card.card4 h2{
+    border-left: 5px solid #735CDD;
+    padding-left: 10px;
+    font-size: 2rem;
+    color: #735CDD;
+}
+.card.card4 p{
+    color: #8e7cdf;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 10px;
+}
+.horizontal-scroll4 a{
+    border: 1px solid #735CDD;
+    color: #735CDD;
+}
+.horizontal-scroll4 a:hover{
+    color: white;
+    background-color: #735CDD;
+}
+
